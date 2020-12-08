@@ -1,0 +1,195 @@
+#game {
+    height: 100vh;
+    background: url('../img/background.png') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background_contact{
+    height: 100vh;
+    background: url('https://akkari.co/wp-content/uploads/2019/05/contact-us-background-image-4.jpg') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#right-part {
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    background: rgba(0, 0, 0, 0.700);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.scrolled {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scrolled::-webkit-scrollbar {
+    display: none;
+}
+
+#skills {
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+}
+
+#formation {
+    position: relative;
+    top: 20%;
+    cursor: pointer;
+}
+
+#experience {
+    position: relative;
+    top: 30%;
+    cursor: pointer;
+}
+
+#hobbies {
+    position: relative;
+    top: 40%;
+    cursor: pointer;
+}
+
+#contact {
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+}
+
+#skills:hover {
+    background: rgba(0, 0, 0, 0.600);
+    padding-left: 3em;
+    transition: .5s;
+}
+
+#formation:hover {
+    background: rgba(0, 0, 0, 0.600);
+    padding-left: 3em;
+    transition: .5s;
+}
+
+#experience:hover {
+    background: rgba(0, 0, 0, 0.600);
+    padding-left: 3em;
+    transition: .5s;
+}
+
+#hobbies:hover {
+    background: rgba(0, 0, 0, 0.600);
+    padding-left: 3em;
+    transition: .5s;
+}
+
+#contact:hover {
+    background: rgba(0, 0, 0, 0.600);
+    padding-left: 3em;
+    transition: .5s;
+}
+
+.first-plan {
+    z-index: 1;
+}
+
+#skills-div {
+    position: fixed;
+    top: 5%;
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+#skills-div.show {
+    transform: translateX(0%);
+}
+
+#formation-div {
+    position: fixed;
+    top: 5%;
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+#formation-div.show {
+    transform: translateX(0%);
+}
+
+#experience-div {
+    position: fixed;
+    top: 5%;
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+#experience-div.show {
+    transform: translateX(0%);
+}
+
+#hobbies-div {
+    position: fixed;
+    top: 5%;
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+#hobbies-div.show {
+    transform: translateX(0%);
+}
+
+#contact-div {
+    position: fixed;
+    top: 5%;
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+
+#contact-div.show {
+    transform: translateX(0%);
+}
+
+.bg-color {
+    background-color: gray;
+}
+
+.block {
+    height: 4em;
+    width: 4em;
+    border-radius: 0.5em;
+    background-color: #ff3131;
+    cursor: pointer;
+}
+
+.border-perso {
+    border: 0.1em rgb(87, 85, 85) solid;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    color: white;
+    transition: transform 0.75s;
+}
+
+.fa::before {
+    vertical-align: sub;
+}
+
+.border-perso:hover {
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    color: rgb(35, 35, 35);
+    transform: scale(1.05);
+}
+
+.forms{
+    margin-top: 20%;
+}
